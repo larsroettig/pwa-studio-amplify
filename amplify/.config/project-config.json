@@ -1,0 +1,17 @@
+{
+    "projectName": "pwastudioamplify",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist",
+            "BuildCommand": "yarn build",
+            "StartCommand": "yarn start"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
